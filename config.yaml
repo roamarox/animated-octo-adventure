@@ -1,6 +1,6 @@
 baseurl: "https://example.com"
 languageCode: "en-us"
-title: "Rodrigouez"
+title: "ro"
 theme: "hugo-tania"
 paginate: 6
 
@@ -14,9 +14,9 @@ params:
   # Enable float footnotes.
   # Default to true
   enableFootnotes: true
-  siteName: "Hugo Tania is Amazing"
-  siteDesc: "Hugo is Absurdly Fast!"
-  author: "Hugo Tania"
+  siteName: "agitated-kalam"
+  siteDesc: "Blog sobre data science"
+  author: "Rodrigo Amaro"
 
 
   # Limit how many categories filter show above search input.
@@ -26,18 +26,18 @@ params:
   # Show your socail information with icon on index bio with `_index.md` content.
   socialOptions:
     dev-to:
-    email:
+    email: 
     facebook:
     github:
     instagram:
-    linkedin:
+    linkedin: https://www.linkedin.com/in/roamarox/
     medium:
     stack-overflow:
     steam:
     telegram:
     twitter:
     twitch:
-    whatsapp:
+    whatsapp: +5989265868
 
 menu:
   header:
