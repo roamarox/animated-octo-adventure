@@ -1,15 +1,15 @@
 baseurl: "https://example.com"
 languageCode: "en-us"
-title: "Rodrigouez"
+title: "Hugo Tania"
 theme: "hugo-tania"
 paginate: 6
 
 params:
   # Emoji will show before the blog title on site navbar.
-  titleEmoji: 
+  titleEmoji:
 
   # Logo will show before the blog title on site navbar.
-  titleLogo: lauro.ico
+  titleLogo: favicon.ico
   
   # Enable float footnotes.
   # Default to true
@@ -41,9 +41,11 @@ params:
 
 menu:
   header:
-    - name: Articulos
+    - name: Articles
       url: "/articles/"
-  
+  footer:
+    - name: RSS
+      url: "/index.xml"
 
 markup:
   highlight:
